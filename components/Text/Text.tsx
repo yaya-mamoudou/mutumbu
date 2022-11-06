@@ -1,4 +1,4 @@
-import { Text as RNText, TextStyle } from 'react-native';
+import { Text as RNText } from 'react-native';
 import React from 'react';
 import { styles } from './Text.styles';
 import { TextProps, TextBoldProps } from './Text.types';

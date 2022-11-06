@@ -51,14 +51,10 @@ export default function TabBar({ state, descriptors, navigation }: MaterialTopTa
 							style={styles.tabItem}
 						>
 							{isFocused && (
-								<Animated.Text style={[styles.textBold, { fontSize: 22 }]}>
-									{label}
-								</Animated.Text>
+								<Animated.Text style={[styles.textBold]}>{label}</Animated.Text>
 							)}
 							{!isFocused && (
-								<Animated.Text style={[styles.textLight, { fontSize: 16 }]}>
-									{label}
-								</Animated.Text>
+								<Animated.Text style={[styles.textLight]}>{label}</Animated.Text>
 							)}
 
 							{isFocused && <View style={styles.indicator} />}
