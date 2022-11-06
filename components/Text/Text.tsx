@@ -1,6 +1,6 @@
 import { Text as RNText, TextStyle } from 'react-native';
 import React from 'react';
-import { styles } from './text.styles';
+import { styles } from './Text.styles';
 import { TextProps, TextBoldProps } from './Text.types';
 
 function Text(props: TextProps) {
@@ -28,7 +28,7 @@ Text.Bold = (props: TextBoldProps) => {
 	sm && (textStyle = { fontSize: 14 });
 	md && (textStyle = { fontSize: 16 });
 	lg && (textStyle = { fontSize: 18 });
-	xl && (textStyle = { fontSize: 22 });
+	xl && (textStyle = { fontSize: 19 });
 
 	const extraStyles = {
 		...(color && { color }),
