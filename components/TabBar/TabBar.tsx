@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { MaterialTopTabBarProps } from '@react-navigation/material-top-tabs';
-import { Colors, Fonts } from '../../constants';
-import { View, TouchableOpacity, StyleSheet, Animated } from 'react-native';
+import { Colors } from '../../constants';
+import { View, TouchableOpacity, Animated } from 'react-native';
 import { styles } from './TabBar.styles';
 
 export default function TabBar({ state, descriptors, navigation }: MaterialTopTabBarProps) {
