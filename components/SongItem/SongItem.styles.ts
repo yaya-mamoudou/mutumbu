@@ -1,11 +1,8 @@
 import { StyleSheet } from 'react-native';
-import { Styles } from '../../constants';
-
 export const styles = StyleSheet.create({
 	container: {
-		...Styles.paddingScreen,
-		...Styles.row,
-		justifyContent: 'space-between',
+		flexDirection: 'row',
+		marginVertical: 10,
 		alignItems: 'center',
 	},
 });
