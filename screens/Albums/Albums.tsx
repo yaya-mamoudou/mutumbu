@@ -1,11 +1,14 @@
-import { View, Text } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import React from 'react';
 import { styles } from './Albums.styles';
+import { AlbumItem } from '../../components';
 
 export default function Albums() {
 	return (
-		<View style={styles.container}>
-			<Text>Albums</Text>
-		</View>
+		<FlatList
+			contentContainerStyle={styles.container}
+			data={Array(10).fill(0)}
+			renderItem={({ item }) => <AlbumItem />}
+		/>
 	);
 }

@@ -1,9 +1,12 @@
 import { StyleSheet } from 'react-native';
-import { Colors } from '../../constants';
+import { Colors, Styles } from '../../constants';
 
 export const styles = StyleSheet.create({
 	container: {
+		...Styles.paddingScreen,
 		backgroundColor: Colors.background,
-		flex: 1,
+		flexDirection: 'row',
+		flexWrap: 'wrap',
+		justifyContent: 'space-between',
 	},
 });
