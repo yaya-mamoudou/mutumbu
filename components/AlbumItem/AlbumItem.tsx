@@ -9,7 +9,7 @@ export default function AlbumItem({ album = 'Lover Boy', artist = 'Big Ben' }: A
 	return (
 		<View style={[styles.container]}>
 			<View style={styles.cardContainer}>
-				<Image source={Images.home_logo} style={styles.artImage} />
+				<Image source={Images.splash_screen} style={styles.artImage} />
 			</View>
 			<Text.Bold md style={{ marginBottom: 5, marginTop: 4 }}>
 				{album}
