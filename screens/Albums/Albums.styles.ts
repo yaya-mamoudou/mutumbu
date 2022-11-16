@@ -7,6 +7,5 @@ export const styles = StyleSheet.create({
 		backgroundColor: Colors.background,
 		flexDirection: 'row',
 		flexWrap: 'wrap',
-		justifyContent: 'space-between',
 	},
 });
