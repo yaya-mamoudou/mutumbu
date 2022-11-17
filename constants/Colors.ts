@@ -7,6 +7,7 @@ const light = {
 	text_active: '#FFD159',
 	background: '#e5e5e5',
 	card_background: '#BBBBBB',
+	player_background: '#5B5B5B',
 };
 
 const dark = {
@@ -14,6 +15,7 @@ const dark = {
 	text_active: '#FFD159',
 	background: '#313131',
 	card_background: '#BBBBBB',
+	player_background: '#5B5B5B',
 };
 
 // export default theme === 'light' ? light : dark;

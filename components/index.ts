@@ -5,5 +5,5 @@ import SongItem from './SongItem/SongItem';
 import AlbumItem from './AlbumItem/AlbumItem';
 import ArtistItem from './ArtistItem/ArtistItem';
 import PlaylistItem from './PlaylistItem/PlaylistItem';
-
-export { Text, TabBar, Header, SongItem, AlbumItem, ArtistItem, PlaylistItem };
+import Player from './Player/Player';
+export { Text, TabBar, Header, SongItem, AlbumItem, ArtistItem, PlaylistItem, Player };

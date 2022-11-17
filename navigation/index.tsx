@@ -1,9 +1,10 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
+import { View } from 'react-native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { Albums, Artists, Playlists, Songs } from '../screens';
-import { Header, TabBar } from '../components';
+import { Header, Player, TabBar } from '../components';
 
 const Tab = createMaterialTopTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -22,6 +23,7 @@ function RootNavigator() {
 
 function TabNavigator() {
 	return (
+		// <View>
 		<Tab.Navigator screenOptions={{}} tabBar={(props) => <TabBar {...props} />}>
 			<Tab.Screen name='Songs' component={Songs} />
 			<Tab.Screen name='Albums' component={Albums} />
@@ -35,6 +37,7 @@ export default function Navigation() {
 	return (
 		<NavigationContainer>
 			<RootNavigator />
+			<Player />
 		</NavigationContainer>
 	);
 }

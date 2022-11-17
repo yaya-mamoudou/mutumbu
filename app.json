@@ -25,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yayamamoudou.mutumbu"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "32a50f3f-fdc5-435c-95cd-119591fa4ec8"
+      }
     }
   }
 }
